@@ -108,8 +108,8 @@ app.put("/image", (req, res) => {
   }
 });
 
-app.listen(50001, () => {
-  console.log("App is running on port 50001");
+app.listen(50004, () => {
+  console.log("App is running on port 50004");
 });
 
 const passwordMatch = (savedPassword, inputPassword) => {
